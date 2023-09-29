@@ -1,0 +1,27 @@
+h1, h2, h3 {
+    color: magenta;
+    font-family: 'Monotype Corsiva';
+    text-align: center;
+}
+
+.one{
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+}
+
+.two{
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20pt;
+}
+
+.three{
+    color: green;
+    font-family: 'Times New Roman';
+    font-size: 22pt;
+}
+
+table td{
+    color: red;
+}

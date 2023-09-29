@@ -1,0 +1,48 @@
+figure{
+    display: inline-block;
+    margin-left: 60px;
+    perspective: 800px;
+}
+
+img{
+    width: 300px;
+    transform-style: preserve-3d;
+}
+
+span{
+    font-family: 'Brush Script MT';
+    color: rgb(102, 129, 216);
+}
+
+.img1:hover{
+    transform: scale(0.5);
+    transition: transform 0.6s linear 0.5s;
+}
+
+.img2:hover{
+    transform: rotate(45deg);
+    transition: transform 0.6s linear 0.5s;
+}
+
+.img3:hover{
+    transform: translate(50px);
+    transition: transform 0.6s linear 0.5s;
+}
+
+.img4:hover{
+    transform: skew(-20deg);
+    transition: transform 0.6s linear 0.5s;
+}
+
+@keyframes around {
+    0% { opacity: 0; }
+    50% { opacity: 80% ;}
+    100% { opacity: 0;}
+}
+
+h1{ 
+    position: relative;
+    animation: around 4s linear infinite;
+    font-size: 70px;
+    text-align: center;
+}

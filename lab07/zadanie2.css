@@ -1,0 +1,14 @@
+.img5{
+    transform: rotateX(40deg);
+    transform-origin: bottom top;
+}
+
+.img6{
+    transform: rotateY(40deg);
+    transform-origin: left right;
+}
+
+.img7{
+    transform: rotateY(-40deg);
+    transform-origin: right left;
+}

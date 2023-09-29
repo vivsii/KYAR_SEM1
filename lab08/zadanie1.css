@@ -1,0 +1,66 @@
+body{
+    font-family: "Calibri";
+}
+
+ul.nav
+{
+    list-style-type: none;
+}
+ul.nav a
+{
+    display: block;
+    text-decoration: none;
+}
+
+ul.nav a:link{
+    color: red;
+}
+ul.nav a:visited
+{
+    color: #8B0000;
+}
+ul.nav a:hover
+{
+    color: green;
+}
+ul.nav a:active
+{
+    color: rgb(184, 134, 11);
+}
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+ul a{
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside{
+    display: block;
+    width: 200px;
+    height: 1570px;
+    float: right;
+    border: solid 4px #ad655f;
+    font-family: "Comfortaa Regular";
+    text-align: center;
+    background-color: #ebced2;
+}
+
+section{
+    margin-right: 250px;
+}
+
+p{
+    text-indent: 50px;
+}
+
+h2{
+    border: solid;
+    width: 200px;
+    text-align: center;
+    background-color: #ebced2;
+}

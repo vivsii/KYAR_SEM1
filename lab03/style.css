@@ -1,0 +1,66 @@
+@font-face{
+    font-family:'Caveat';
+    src: url('лабораторная 3\fonts\Caveat.woff') format('woff');
+    src: url('лабораторная 3\fonts\Caveat.svg') format('svg');
+}
+
+@font-face{
+    font-family:'Comfortaa';
+    src: url('лабораторная 3\fonts\Comfortaa.woff') format('woff');
+    src: url('лабораторная 3\fonts\Comfortaa.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url("D:\уник\компьютерные языки разметки\лабораторная 3\fonts\Exo2.woff") format('woff');
+    src:url("D:\уник\компьютерные языки разметки\лабораторная 3\fonts\Exo2.svg") format('svg');
+}
+h1{
+    font-family: 'Caveat';
+        margin-bottom: 0%;
+        text-align: center;
+        font-style: bold;
+        text-transform: uppercase;
+        font-size: 45px;
+        text-shadow: 8px 8px 8px;
+}
+
+h2{
+    font-family: 'Exo2';
+    margin-bottom: 1.2em;
+    margin-top: 0.2rem;
+    text-indent: 25px;
+    text-align: left;
+}
+
+p{
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+p::first-letter{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    background-color: hsla(275, 100%, 10%, 1);
+}
+
+ol li{
+    list-style-type: none;
+    counter-increment: rim;
+     font-family: 'Comfortaa';
+}
+
+ol li::before {
+    content: counter(rim, upper-roman) ".";
+    color: blue;
+    }
+
+.hu{
+    margin-bottom:0%;
+}
+ 
